@@ -1,0 +1,56 @@
+.nav {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+    user-select: none;
+}
+.nav_row {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .6s ease-in;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+}
+
+.logo_name {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #0F3275;
+}
+
+
+.btn {
+    padding: 9px 30px;
+    background: #0084ff26;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    max-height: 50px;
+    line-height: 1.5;
+    color: #0F3275;
+    font-weight: 400;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    transition: all .4s ease-in;
+    cursor: pointer;
+    &:hover {
+        color: #fff;
+        background: #0F3275;
+    }
+}
